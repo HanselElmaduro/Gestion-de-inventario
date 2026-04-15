@@ -1,11 +1,12 @@
-# 🏭 Sistema de Gestión de Almacén
+[README.md](https://github.com/user-attachments/files/26731644/README.md)
+# Sistema de Gestión de Almacén
 
 Sistema de gestión completo con manejo de usuarios y productos para almacén,
 desarrollado en Java con Swing y conexión a base de datos MySQL remota.
 
 ---
 
-## 🏗️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ```
 AlmacenSystem/
@@ -36,7 +37,7 @@ AlmacenSystem/
 
 ---
 
-## 🎯 Pilares de POO Aplicados
+## Pilares de POO Aplicados
 
 | Pilar | Dónde se aplica |
 |-------|----------------|
@@ -47,7 +48,7 @@ AlmacenSystem/
 
 ---
 
-## 🏛️ Patrones de Diseño Aplicados
+## Patrones de Diseño Aplicados
 
 ### 1. SINGLETON — `ConexionDB.java`
 Garantiza una única instancia de conexión a la base de datos:
@@ -71,7 +72,7 @@ Cada vez que hay una inserción, actualización o eliminación, se llama `cargar
 
 ---
 
-## 🚀 Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
 ### Requisitos
 - Java JDK 11 o superior
@@ -98,7 +99,7 @@ java -jar target/AlmacenSystem-1.0-SNAPSHOT.jar
 
 ---
 
-## 🗄️ Base de Datos
+## Base de Datos
 
 **Conexión remota configurada:**
 ```
@@ -133,29 +134,29 @@ CREATE TABLE productos (
 
 ---
 
-## 🎨 Funcionalidades
+## Funcionalidades
 
 ### Gestión de Usuarios
-- ✅ Login con validación de campos
-- ✅ Contraseña oculta (JPasswordField)
-- ✅ Registro con todos los campos validados
-- ✅ Error específico por campo faltante
-- ✅ Verificación de contraseñas coincidentes
-- ✅ Verificación de nombre de usuario único
-- ✅ Listado de todos los usuarios
-- ✅ Editar datos de usuario
-- ✅ Eliminar usuario con confirmación
-- ✅ Actualización automática de la lista
-- ✅ Cerrar sesión
+- Login con validación de campos
+- Contraseña oculta (JPasswordField)
+- Registro con todos los campos validados
+- Error específico por campo faltante
+- Verificación de contraseñas coincidentes
+- Verificación de nombre de usuario único
+- Listado de todos los usuarios
+- Editar datos de usuario
+- Eliminar usuario con confirmación
+- Actualización automática de la lista
+- Cerrar sesión
 
 ### Gestión de Productos
-- ✅ Listado de todos los productos con colores por stock
-- ✅ Clic en producto abre formulario de edición
-- ✅ Crear nuevo producto con validación
-- ✅ Guardar cambios → cierra y actualiza lista
-- ✅ Eliminar con confirmación → cierra y actualiza lista
-- ✅ Precios formateados en RD$
-- ✅ Stock coloreado (verde/naranja/rojo según cantidad)
+- Listado de todos los productos con colores por stock
+- Clic en producto abre formulario de edición
+- Crear nuevo producto con validación
+- Guardar cambios → cierra y actualiza lista
+- Eliminar con confirmación → cierra y actualiza lista
+- Precios formateados en RD$
+- Stock coloreado (verde/naranja/rojo según cantidad)
 
 ---
 
